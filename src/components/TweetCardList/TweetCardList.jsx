@@ -1,8 +1,8 @@
-import { TweedCard } from 'components/TweedCard/TweetCard';
+import { TweetCard } from 'components/TweetCard/TweetCard';
 import { useEffect, useState } from 'react';
 import { fetchUsers } from 'services';
 
-export const TweedCardList = () => {
+export const TweetCardList = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export const TweedCardList = () => {
     <div>
       <ul>
         {users.map(({ avatar, user, tweets, followers, id }) => (
-          <TweedCard
+          <TweetCard
             key={id}
             userImg={avatar}
             userName={user}

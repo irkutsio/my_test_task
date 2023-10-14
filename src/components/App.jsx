@@ -1,6 +1,6 @@
-import { TweedCardList } from "./TweetCardList/TweetCardList";
+import { TweetCardList } from "./TweetCardList/TweetCardList";
 
 
 export const App = () => {
-  return <TweedCardList/>
+  return <TweetCardList/>
 };
