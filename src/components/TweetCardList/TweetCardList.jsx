@@ -17,6 +17,8 @@ export const TweedCardList = () => {
     }
   };
 
+  console.log(users)
+
 
 
   return <div>Tweet</div>;
