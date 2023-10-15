@@ -18,8 +18,6 @@ export const TweetCardList = () => {
     }
   };
 
-  console.log(users);
-
   return (
     <div>
       <ul>

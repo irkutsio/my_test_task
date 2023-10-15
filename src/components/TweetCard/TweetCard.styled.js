@@ -32,10 +32,10 @@ export const Tweet = styled.div`
     font-weight: 600;
     line-height: 22px;
     color: #373737;
-    background-color: #ebd8ff;
     border-color: transparent;
     border-radius: 10px;
     box-shadow: 0px 3.44px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
   }
 `;
 
